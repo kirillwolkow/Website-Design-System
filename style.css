@@ -1,0 +1,134 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    margin: 30px;
+}
+
+.colors {
+    border: 1px solid black;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.colors h2 {
+    margin-bottom: 30px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.blueback {
+    background-color: #2F2E33;
+    color: white;
+}
+
+.coolgray {
+    background-color: #D5D6D2;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.cobalt {
+    background-color: #3A5199;
+    color: white;
+}
+
+.blueback,
+.coolgray,
+.white,
+.cobalt {
+    min-width: 35%;
+    padding: 30px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.fonts {
+    border: 1px solid black;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.playfair-display,
+.lato,
+.roboto {
+    min-width: 35%;
+    padding: 30px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+h3 {
+    font-family: 'Fairplay Display';
+    font-weight: 400;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+#heading {
+    font-family: 'Fairplay Display';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#subheading {
+    font-family: 'Fairplay Display';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#paragraph {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#link {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text-styles {
+    border: 1px solid black;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.heading,
+.subheading,
+.paragraph,
+.link {
+    min-width: 35%;
+    padding: 30px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+}
